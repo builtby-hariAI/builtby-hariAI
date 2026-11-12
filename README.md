@@ -11,21 +11,20 @@ dependency-free.
 
 ## Finance and markets
 
-| Project | What it does | Tech |
-|---|---|---|
-| [MBS Cash Flow Model](https://github.com/builtbyhariai/MBSCashFlowModel) | Agency MBS cash flows with PSA and rate-linked prepayments, WAL, effective duration and convexity | Python, stdlib only |
-| [Bond Rate Shock Analyzer](https://github.com/builtbyhariai/BondRateShockAnalyzer) | Bond P&L under rate shocks, duration vs convexity error, key-rate DV01 off a Treasury curve | Python, stdlib only |
-| [Mortgage Market Dashboard](https://github.com/builtbyhariai/MortgageMarketDashboard) | Mortgage rates vs Treasuries, the mortgage-Treasury spread and the 10Y-2Y curve from FRED data | Python, stdlib only |
-| [Mortgage Delinquency Drivers](https://github.com/builtbyhariai/MortgageDelinquencyDrivers) | OLS with Newey-West errors on what moves the mortgage delinquency rate | Python, stdlib only |
-| [Covered Call Screener](https://github.com/builtbyhariai/CoveredCallScreener) | Ranks covered-call candidates from an option chain, with risk flags (synthetic data) | Python, stdlib only |
-| [Budget Variance Analyzer](https://github.com/builtbyhariai/BudgetVarianceAnalyzer) | Budget vs actual variance, materiality flags and an operating income bridge (synthetic data) | Python, stdlib only |
+The finance projects moved to the public portfolio account so they all live in one place.
+
+| Project | What it does |
+|---|---|
+| [Rates and Mortgage Risk Lab](https://github.com/builtby-hari/RatesMortgageRiskLab) | MBS cash flows, bond rate shocks, the mortgage market dashboard and delinquency drivers, in one repo |
+| [Covered Call Screener](https://github.com/builtby-hari/CoveredCallScreener) | Ranks covered-call candidates from an option chain, with risk flags |
+| [Budget Variance Analyzer](https://github.com/builtby-hari/BudgetVarianceAnalyzer) | Budget vs actual variance, materiality flags and an operating income bridge |
 
 ## Developer tools
 
 | Project | What it does | Tech |
 |---|---|---|
-| [Dev Tools](https://github.com/builtbyhariai/DevTools) | A safe git history cleaner, a commit hook that keeps AI attribution out, and a status line | Bash |
-| [Flipper Setup](https://github.com/builtbyhariai/FlipperSetup) | Flipper Zero notes, helper scripts and reference lists (no personal keys or captures) | Python, notes |
+| Dev Tools (private) | A safe git history cleaner, a commit hook that keeps AI attribution out, and a status line | Bash |
+| Flipper Setup (private) | Flipper Zero notes, helper scripts and reference lists (no personal keys or captures) | Python, notes |
 
 ## How it is built
 - Local-first and private by default. Data stays on Hari's machines.
